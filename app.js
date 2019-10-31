@@ -43,6 +43,9 @@ $(function () {
         var name = $('#name').html();
         var major = $('#major').html();
         console.log(name + major);
+        $('#getDom').addClass("display-1");
+        $('#img').attr("src","images/1.png");
+
     });
 
     $('#setDOM').click(function () {
@@ -62,6 +65,7 @@ $(function () {
         $('#name').empty();
         $('#major').empty();
         $('#list').empty();
+        $('#Ilist').val("   ");
     });
 
 
